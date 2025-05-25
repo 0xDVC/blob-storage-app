@@ -64,11 +64,9 @@ this project follows a strict hexagonal (ports and adapters) architecture, with 
 ### key diagrams
 
 - **c4 model**: high-level system context and container diagrams
-  ![C4 Model](c4.png)
-- **hexagonal architecture**: shows the flow from rest api to adapters and storage providers
-  ![Hex Architecture](dependency-graph.png)
+  ![C4 Model](doc/c4.png)
 - **component/package structure**: visualizes the main modules and their relationships
-  ![Architecture Overview](architecture.png)
+  ![Architecture Overview](doc/architecture.png)
 
 ---
 
@@ -126,7 +124,7 @@ mvn com.github.ferstl:depgraph-maven-plugin:4.0.1:aggregate \
 
 the resulting graph (see below) shows the clean, layered structure of the codebase:
 
-![Dependency Graph](dependency-graph.png)
+![Dependency Graph](doc/dependency-graph.png)
 
 ---
 
