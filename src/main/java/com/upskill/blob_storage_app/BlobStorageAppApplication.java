@@ -1,13 +1,13 @@
-package com.upskill.file_storage_app;
+package com.upskill.blob_storage_app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FileStorageAppApplication {
+public class BlobStorageAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FileStorageAppApplication.class, args);
+		SpringApplication.run(BlobStorageAppApplication.class, args);
 	}
 
 }
